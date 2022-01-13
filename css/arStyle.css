@@ -70,3 +70,6 @@ body {
 select {
 	text-align: center;
 }
+.modal-title {
+margin-left: auto;
+}
