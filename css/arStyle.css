@@ -32,7 +32,7 @@ body {
 }
 .easy .details p {
 	letter-spacing: 0px;
-	font-weight: 100;
+	font-weight: 600;
 	color: rgb(118, 137, 194);
 	font-size: 16px;
 }
@@ -71,5 +71,5 @@ select {
 	text-align: center;
 }
 .modal-title {
-margin-left: auto;
+	margin-left: auto;
 }
