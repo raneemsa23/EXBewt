@@ -198,7 +198,7 @@ footer {
 }
 footer .img {
 	width: 120px;
-	height: 80px;
+	height: 50px;
 	/* background-color: violet; */
 }
 footer .do {
@@ -426,4 +426,16 @@ select {
     background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right rgb(250, 250, 250);
     -webkit-appearance: none;
     background-position-x: 80px;
+}
+.Privacy{
+	color: gray;
+	font-family: 'Cairo';
+
+}
+.Privacy button{
+	color: honeydew;
+	font-size: 16px;
+}
+.Privacy .modal-title{
+	color: var(--mainColor);
 }

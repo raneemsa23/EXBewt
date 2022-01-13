@@ -85,32 +85,19 @@ function leftArrowFunc1() {
 		easySections[0].className = "col-md-8 col-12 d-none d-sm-block"
 	}
 	if(count==0){
-		
+	
 		leftArrow[0].style.color="gainsboro"
 		rightArrow[0].style.color="#5da8f3"
 	}
-	
+	if(count>0&&count<4)
+	{
+		leftArrow[0].style.color="#5da8f3"
+		rightArrow[0].style.color="#5da8f3"	
+	}
+  
+
 
 }
 
 leftArrow[0].addEventListener("click", leftArrowFunc1);
 
-let en = document.getElementById("en");
-let ar = document.getElementById("ar");
-
-let select = document.getElementById("select");
-
-select.addEventListener("change", function (e) {
-	console.log(e.target.value);
-	if (e.target.value == "ar") {
-		console.log("ar");
-		setTimeout(function () {
-			window.location = "indexAr.html";
-		}, 1000);
-	} else {
-		console.log("en");
-		setTimeout(function () {
-			window.location = "index.html";
-		}, 1000);
-	}
-});
