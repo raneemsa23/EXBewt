@@ -439,3 +439,7 @@ select {
 .Privacy .modal-title{
 	color: var(--mainColor);
 }
+.modal-body h3{
+	font-size: 22px;
+	color:var(--secondColor)
+}
