@@ -8,7 +8,7 @@ html {
 }
 header {
 	/* background-color: yellowgreen; */
-	text-align: left;
+	/* text-align: left; */
 }
 .logo {
 	/* width: 100%; */
@@ -42,9 +42,12 @@ body {
 	padding-right: 30px;
 }
 .home-mobile-details .title {
-	font-weight: 100;
+	font-weight: 700;
 	word-spacing: 2px;
-	font-size: 28px;
+	font-size: 22px;
+}
+.home-mobile-details p{
+	line-height: 1.7;
 }
 .choose-mob .choose-ul-list {
 	direction: rtl;
@@ -67,9 +70,23 @@ body {
 	text-align: center;
 	color: var(--secondColor);
 }
-select {
-	text-align: center;
-}
+/* 
+ect option{
+	text-align: right;
+	color: red;
+	
+} */
 .modal-title {
 	margin-left: auto;
+}
+.final-title-ar{
+	
+	font-size: 20px;
+	font-weight: 700;
+}
+.tik-ar{
+	/* background-color: rgb(221, 216, 216); */
+	width: 130%;
+	/* margin: auto; */
+	/* text-align: left; */
 }

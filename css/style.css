@@ -5,18 +5,39 @@
 
 .header{
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-between;
 	/* align-items: flex-end; */
+	
+}
+.cont{
+	width: 90%;
+	margin: auto;
 }
 .lang{
 	color: var(--mainColor);
+	
 	/* margin-top: 10px; */
 }
+.lang img{
+	position: relative;
+	left: 40px;
+	/* cursor: pointer; */
+}
+/* .container{
+	width: 90%;
+} */
+
 select {
+	margin-left: auto;
+	cursor: pointer;
 	/* text-align: center; */
 	/* padding: 5px; */
-	color: var(--mainColor);
-	 border: none; 
+	color: var(--secondColor);
+	/* background-color: wheat; */
+	 border: none;
+	 width:60px;
+	 height: 40px;								
+	 /* background-color: red;  */
 	/* border: 2px solid var(--mainColor); */
 	/* border-radius: 8px;  */
 	
@@ -38,7 +59,7 @@ body {
 .logo {
 	margin-top: 10px;
 	width: 120px;
-	height: 120px;
+	height: 0px;
 	/* background-color: aqua; */
 }
 .logo img {
@@ -53,7 +74,7 @@ body {
 	/* position: absolute; */
 	background-image: url("../images/ronnie-george-9gGvNWBeOq4-unsplash.jpg");
 	min-height: 500px;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -183,11 +204,11 @@ header .container {
 	text-align: right;
 	color: var(--secondColor);
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 16px;
 }
 .questions p {
-	font-weight: 300;
-	color: var(--mainColor);
+	font-weight: 500;
+	color: var(--secondColor);
 	line-height: 1.8;
 }
 footer {
@@ -199,6 +220,7 @@ footer {
 footer .img {
 	width: 120px;
 	height: 50px;
+	margin: 30px 30px;
 	/* background-color: violet; */
 }
 footer .do {
@@ -352,8 +374,11 @@ footer .col3 p {
         right: 20px;
     }
     .easymob{
-        margin-top: 150px;
+        margin-top: 0px;
     }
+	.easymob .container{
+		margin-top: -100px;
+	}
     .easymob .title {
         font-weight: 700;
       
@@ -392,11 +417,32 @@ footer .col3 p {
 
 	.easyTitle {
 		
-		font-size: 30px;
-		
-		padding: 15px;
-		margin-top: 200px;
+		font-size: 24px;
+		font-weight: 700;
+		/* background-color: red; */
+		padding: 40px;
+		margin-top: 50px;
 		/* color: aqua; */
+	}
+	.freq{
+		position: relative;
+		top: -300px;
+	}
+	.questions .container,footer{
+		position: relative;
+		top: -200px;
+	}
+	body{
+		height: 2000px;
+	}
+	footer .col-one{
+		text-align: center;
+		/* background-color: red; */
+	}
+	footer .img {
+		
+		margin: 50px auto 20px auto;
+		/* background-color: violet; */
 	}
 }
 
@@ -415,7 +461,7 @@ select{
 
 	color: gray;
 }
-select {
+/* select {
     width: 150px;
     padding: 5px;
     font-size: 16px;
@@ -426,7 +472,7 @@ select {
     background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right rgb(250, 250, 250);
     -webkit-appearance: none;
     background-position-x: 120px;
-}
+} */
 .Privacy{
 	color: gray;
 	font-family: 'Cairo';
@@ -442,4 +488,67 @@ select {
 .modal-body h3{
 	font-size: 22px;
 	color:var(--secondColor)
+}
+
+#slider {
+    /*height: 350px;
+    overflow: hidden;
+    width: 100%;*/
+}
+
+.carousel-item {
+	/* margin: 50px 0 10px 80px; */
+    width: 50%;
+    height: 50%;
+	/* background-color: violet; */
+	
+    /* margin-left: auto; */
+
+   /* margin: auto; */
+    /* height: 1000px; */
+
+}
+.carousel-item img{
+    /* width: 50%;
+    height: 50%; */
+}
+.active{
+ /* background-color: red; */
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--mainColor);
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+
+body {
+    /* background-color: lightslategray; */
+}
+.container div{
+   /* position: relative;
+   left: 30%; */
+}
+.container-final{
+	/* text-align: center; */
+	margin-left: 100px;
+	/* background-color: violet; */
+	width: 100%;
+	height: 100%;
+}
+.final-title{
+	font-size: 18px;
+	font-weight: 900;
+}
+.md-info{
+	/* background-color: red; */
+}
+.tik{
+	/* background-color: rgb(221, 216, 216); */
+	width: 300%;
+	/* margin: auto; */
+	/* text-align: left; */
 }

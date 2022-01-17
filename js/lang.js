@@ -10,7 +10,7 @@ select.addEventListener("change", function (e) {
 		setTimeout(function () {
 		
 			window.location = "indexAr.html";
-		}, 1000);
+		}, 0);
 
         
 
@@ -20,6 +20,6 @@ select.addEventListener("change", function (e) {
 		console.log("en");
 		setTimeout(function () {
 			window.location = "index.html";
-		}, 1000);
+		}, 0);
 	}
 });
