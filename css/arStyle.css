@@ -90,12 +90,15 @@ ect option{
 	/* margin: auto; */
 	/* text-align: left; */
 }
-.easyTitle {
+
+@media (max-width: 768px) {
+	.easyTitle {
 		
-	font-size: 20px;
-	font-weight: 700;
-	/* background-color: red; */
-	padding: 40px;
-	margin-top: 50px;
-	/* color: aqua; */
+		font-size: 20px;
+		font-weight: 700;
+		/* background-color: red; */
+		padding: 40px;
+		margin-top: 50px;
+		/* color: aqua; */
+	}
 }

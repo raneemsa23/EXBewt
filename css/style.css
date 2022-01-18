@@ -420,9 +420,9 @@ footer .col3 p {
    .parent {
 	clip-path: polygon(0% 0%, 100% 0%, 93% 86%, 0% 100%);}
 
-	{
+	.easyTitle {
 		
-	.easyTitle 	font-size: 24px;
+		font-size: 22px;
 		font-weight: 700;
 		/* background-color: red; */
 		padding: 40px;
