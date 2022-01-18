@@ -94,8 +94,8 @@ ect option{
 
 @media (max-width: 768px) {
 	.easyTitle {
-		
-		font-size: 20px;
+		/* color: aqua; */
+		font-size: 18px;
 		font-weight: 700;
 		/* background-color: red; */
 		padding: 40px;

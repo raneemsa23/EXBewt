@@ -171,8 +171,14 @@ header .container {
 .carousel-item {
 	width: 100%;
 	height: 100%;
-	margin-left: auto;
+	/* margin-left: auto; */
 	/* background-color: lawngreen; */
+}
+.final-img{
+	width: 100%;
+	height: 100%;
+	/* margin-left: auto; */
+	/* background-color: red; */
 }
 .easyTitle {
 	font-family: "Cairo", sans-serif;
@@ -519,9 +525,9 @@ select{
     /* height: 1000px; */
 
 }
-.carousel-item img{
-    /* width: 50%;
-    height: 50%; */
+.final-img img{
+    width: 100%;
+    height: 100%;
 }
 .active{
  /* background-color: red; */
@@ -573,7 +579,7 @@ body{
 	/* background-color: rosybrown; */
 }
 
-html,body{
+body{
 	/* overflow-y: hidden; */
 /* height: 90%; */
 
