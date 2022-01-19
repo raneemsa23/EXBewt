@@ -33,7 +33,7 @@ select {
 	/* text-align: center; */
 	/* padding: 5px; */
 	color: var(--secondColor);
-	/* background-color: wheat; */
+	background-color: white;
 	 border: none;
 	 width:60px;
 	 height: 40px;								
@@ -499,8 +499,13 @@ select{
 	font-size: 16px;
 }
 .Privacy .modal-title{
-	color: var(--mainColor);
+	color: var(--secondColor);
+	/* font-size: 40px; */
 }
+.modal-footer .btn{
+	background-color: var(--secondColor);
+}
+
 .modal-body h3{
 	font-size: 22px;
 	color:var(--secondColor)
