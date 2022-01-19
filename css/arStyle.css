@@ -39,15 +39,25 @@ body {
 
 .home-mobile-details {
 	/* background-color: red; */
-	padding-right: 30px;
+	/* padding-right: 20px; */
+	text-align: center;
 }
 .home-mobile-details .title {
+    margin-bottom: 10px;
+    font-size: 24px;
 	font-weight: 700;
-	word-spacing: 2px;
-	font-size: 22px;
+	color: white;
+	margin-left: -35px;
+	/* text-align: center */
+	/* margin-left: -10px; */
 }
 .home-mobile-details p{
-	line-height: 1.7;
+	padding: 0px 40px 0px 0px;
+	text-align: center;
+ font-size: 18px;
+ line-height: 1.7;
+ font-weight: 500;
+ color: rgb(230, 230, 230);
 }
 .choose-mob .choose-ul-list {
 	direction: rtl;

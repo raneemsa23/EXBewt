@@ -327,23 +327,26 @@ footer .col3 p {
 	}
 	.home-details {
 		top: 60%;
+		/* text-align: center; */
 		/* background-color: red; */
 		width: 90%;
 		transform: translate(-50%, -50%);
-		color: rgb(255, 255, 255);
-        padding: 0px 23px 0px 0px;
+        
 		
 	}
 	.home-details p{
+		padding: 0px 23px 0px 0px;
 		text-align: center;
      font-size: 18px;
+	 line-height: 1.7;
 	 font-weight: 500;
-	 color: gainsboro;
+	 color: rgb(230, 230, 230);
 	}
     .home-details .title{
         margin-bottom: 10px;
     font-size: 24px;
 	font-weight: 700;
+	color: white;
 
     }
     .mobiles .img1 img {
