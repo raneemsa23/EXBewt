@@ -500,7 +500,7 @@ select{
 }
 .Privacy .modal-title{
 	color: var(--secondColor);
-	/* font-size: 40px; */
+	font-size: 28px;
 }
 .modal-footer .btn{
 	background-color: var(--secondColor);
