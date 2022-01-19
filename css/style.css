@@ -330,12 +330,20 @@ footer .col3 p {
 		/* background-color: red; */
 		width: 90%;
 		transform: translate(-50%, -50%);
-		color: rgb(241, 241, 241);
-        padding: 0 13px;
+		color: rgb(255, 255, 255);
+        padding: 0px 23px 0px 0px;
+		
+	}
+	.home-details p{
+		text-align: center;
+     font-size: 18px;
+	 font-weight: 500;
+	 color: gainsboro;
 	}
     .home-details .title{
         margin-bottom: 10px;
     font-size: 24px;
+	font-weight: 700;
 
     }
     .mobiles .img1 img {
