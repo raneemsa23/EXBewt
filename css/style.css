@@ -335,17 +335,18 @@ footer .col3 p {
 		
 	}
 	.home-details p{
-		padding: 0px 23px 0px 0px;
-		text-align: center;
+		padding: 0px 25px 0px 0px;
+		/* text-align: center; */
      font-size: 18px;
-	 line-height: 1.7;
+	 line-height: 1.5;
 	 font-weight: 500;
 	 color: rgb(230, 230, 230);
+	 word-spacing: 1px;
 	}
     .home-details .title{
         margin-bottom: 10px;
     font-size: 24px;
-	font-weight: 700;
+	font-weight: 500;
 	color: white;
 
     }
