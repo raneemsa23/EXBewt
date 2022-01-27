@@ -614,6 +614,10 @@ body{
 
 	/* overflow-y: auto; */
 	overflow-x: hidden;
+	-webkit-overflow-x:hidden;
+	-moz-overflow-x:hidden;
+	-ms-overflow-x:hidden;
+	-o-overflow-x:hidden;
 	/* overflow-y: visible; */
 
 	
